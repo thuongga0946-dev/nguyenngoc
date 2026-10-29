@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>THƯƠNG NGUYỄN AUTOMATION - Cổng Quản trị & Kỹ thuật Nội bộ</title>
+    <title>THƯỞNG NGUYỄN AUTOMATION - Cổng Quản trị & Kỹ thuật Nội bộ</title>
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="apple-touch-icon" href="logo-icon.png">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -236,8 +236,8 @@
     <div id="authScreen" class="fixed inset-0 z-50 bg-steel-900 flex items-center justify-center p-4 sm:p-6 overflow-y-auto">
         <div class="max-w-md w-full bg-steel-800/95 backdrop-blur-xl border border-steel-700 rounded-3xl p-6 sm:p-8 shadow-2xl space-y-6 my-auto">
             <div class="text-center space-y-2">
-                <img src="logo-banner-web.png" alt="Thương Nguyễn Automation" class="w-full max-w-[250px] mx-auto drop-shadow-[0_0_20px_rgba(249,115,22,0.3)]">
-                <h1 class="sr-only">THƯƠNG NGUYỄN AUTOMATION</h1>
+                <img src="logo-banner-web.png" alt="Thưởng Nguyễn Automation" class="w-full max-w-[250px] mx-auto drop-shadow-[0_0_20px_rgba(249,115,22,0.3)]">
+                <h1 class="sr-only">THƯỞNG NGUYỄN AUTOMATION</h1>
                 <p class="text-xs text-gray-400">Cổng Quản trị & Kỹ thuật Nội bộ (Bảo mật & Đa thiết bị)</p>
             </div>
 
@@ -301,7 +301,7 @@
                 <div class="flex items-center space-x-3">
                     <img src="logo-icon.png" alt="" class="w-10 h-10 rounded-xl shadow-lg shadow-brand-600/30 flex-shrink-0">
                     <div>
-                        <h1 class="font-bold text-sm tracking-wide text-white">THƯƠNG NGUYỄN</h1>
+                        <h1 class="font-bold text-sm tracking-wide text-white">THƯỞNG NGUYỄN</h1>
                         <span class="text-[10px] uppercase tracking-widest text-brand-500 font-semibold">AUTOMATION</span>
                     </div>
                 </div>
@@ -2030,7 +2030,7 @@
         }
         const zlDmId = (a, b) => 'dm:' + [a, b].sort().join('|');
         const zlDmPeer = conv => conv.slice(3).split('|').find(x => x !== zlMe()) || zlMe();
-        const zlConvName = conv => conv === ZL_GROUP ? 'Phòng Chat Thương Nguyễn Automation' : getSenderName(zlDmPeer(conv));
+        const zlConvName = conv => conv === ZL_GROUP ? 'Phòng Chat Thưởng Nguyễn Automation' : getSenderName(zlDmPeer(conv));
         function zlCanSee(conv) { return conv === ZL_GROUP || conv.slice(3).split('|').includes(zlMe()); }
 
         function zlIsOnline(id) {
